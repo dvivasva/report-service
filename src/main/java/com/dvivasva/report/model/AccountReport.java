@@ -3,17 +3,17 @@ package com.dvivasva.report.model;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 public class AccountReport {
 
     private String id;
-    private String typeAccount;
-    private String numberAccount;
-    private int keyAccount;
-    private double availableBalanceAccount;
-    private String dateCreationAccount;
-    private String statusAccount;
-    private int idClerkCreation;
+    private String type;
+    private String number;
+    private double availableBalance;
+    private Date dateCreation;
+    private String status;
     private String customerId;
 }
